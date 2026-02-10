@@ -94,7 +94,7 @@
             <button 
                 class="send-btn" 
                 @onclick="SendMessage"
-                disabled="@(string.IsNullOrWhiteSpace(currentMessage) || isTyping)">
+                disabled="@(isTyping)">
                 <span class="send-icon">➤</span>
             </button>
         </div>
