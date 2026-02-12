@@ -194,7 +194,7 @@
 
     private async Task HandleKeyPress(KeyboardEventArgs e)
     {
-        if (e.Key == "Enter" && !e.ShiftKey)
+        if (e.Key == "Enter" && e.ShiftKey != true)
         {
             await SendMessage();
         }
