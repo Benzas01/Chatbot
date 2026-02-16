@@ -171,7 +171,7 @@
             var requestData = new MessageRequest { content = userMessage };
 
             // 2. Send the POST request
-            var response = await Http.PostAsJsonAsync("backendchatbot.railway.internal", requestData);
+            var response = await Http.PostAsJsonAsync("https://backendchatbot.railway.internal/api/message", requestData);
 
             // 3. Check if the server answered successfully
             if (response.IsSuccessStatusCode)
