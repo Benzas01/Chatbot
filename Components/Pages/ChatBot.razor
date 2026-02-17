@@ -202,30 +202,33 @@
     }
 
     private async Task ClearChat()
+{
+    messages.Clear();
+    messages.Add(new ChatMessage
     {
-        messages.Clear();
-        messages.Add(new ChatMessage
+        Text = "Chat cleared. How can I assist you?",
+        IsUser = false,
+        Timestamp = DateTime.Now
+    });
+    try
+    {
+        var cookie = await JS.InvokeAsync<string>("eval", "document.cookie");
+        if (!string.IsNullOrEmpty(cookie))
         {
-            Text = "Chat cleared. How can I assist you?",
-            IsUser = false,
-            Timestamp = DateTime.Now
-        });
-        try
-        {
-            var cookie = await JS.InvokeAsync<string>("eval", "document.cookie");
 
             var request = new HttpRequestMessage(HttpMethod.Post, "https://backendchatbot-production-a10b.up.railway.app/api/clear");
 
-            request.Headers.Add("Cookie", cookie);
+            request.Headers.TryAddWithoutValidation("Cookie", cookie);
 
             await Http.SendAsync(request);
         }
-        catch(Exception ex)
-        {
-            Console.WriteLine($"Failed to notify backend of clear: {ex.Message}");
-        }
-        StateHasChanged();
     }
+    catch(Exception ex)
+    {
+        Console.WriteLine($"Failed to notify backend of clear: {ex.Message}");
+    }
+    StateHasChanged();
+}
 
     private async Task ScrollToBottom()
     {
