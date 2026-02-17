@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Norbertas\\source\\repos\\Test2\\Test2\\Test2.csproj": {}
+    "C:\\Users\\Norbertas\\source\\repos\\Chatbot\\Test2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Norbertas\\source\\repos\\Test2\\Test2\\Test2.csproj": {
+    "C:\\Users\\Norbertas\\source\\repos\\Chatbot\\Test2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Norbertas\\source\\repos\\Test2\\Test2\\Test2.csproj",
+        "projectUniqueName": "C:\\Users\\Norbertas\\source\\repos\\Chatbot\\Test2.csproj",
         "projectName": "Test2",
-        "projectPath": "C:\\Users\\Norbertas\\source\\repos\\Test2\\Test2\\Test2.csproj",
+        "projectPath": "C:\\Users\\Norbertas\\source\\repos\\Chatbot\\Test2.csproj",
         "packagesPath": "C:\\Users\\Norbertas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Norbertas\\source\\repos\\Test2\\Test2\\obj\\",
+        "outputPath": "C:\\Users\\Norbertas\\source\\repos\\Chatbot\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Norbertas\\AppData\\Roaming\\NuGet\\NuGet.Config",

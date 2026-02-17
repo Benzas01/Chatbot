@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wUUFpe7TiHfH83ZJ9k2xxzSlJhKW9YwiwT5cF4nndLk=",
+  "Hash": "czUxmWqVQ9ghqYscEFmZUEMVgEFQAqFcMeD97zzYOOE=",
   "Source": "Test2",
   "BasePath": "_content/Test2",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Test2\\wwwroot",
       "Source": "Test2",
-      "ContentRoot": "C:\\Users\\Norbertas\\source\\repos\\Test2\\Test2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Norbertas\\source\\repos\\Chatbot\\wwwroot\\",
       "BasePath": "_content/Test2",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Norbertas\\source\\repos\\Test2\\Test2\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Test2.styles.css",
+      "Identity": "C:\\Users\\Norbertas\\source\\repos\\Chatbot\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Test2.styles.css",
       "SourceId": "Test2",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Norbertas\\source\\repos\\Test2\\Test2\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Norbertas\\source\\repos\\Chatbot\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Test2",
       "RelativePath": "Test2.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Norbertas\\source\\repos\\Test2\\Test2\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Test2.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Norbertas\\source\\repos\\Chatbot\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Test2.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Norbertas\\source\\repos\\Test2\\Test2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Test2.bundle.scp.css",
+      "Identity": "C:\\Users\\Norbertas\\source\\repos\\Chatbot\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Test2.bundle.scp.css",
       "SourceId": "Test2",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Norbertas\\source\\repos\\Test2\\Test2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Norbertas\\source\\repos\\Chatbot\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Test2",
       "RelativePath": "Test2.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Norbertas\\source\\repos\\Test2\\Test2\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Test2.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Norbertas\\source\\repos\\Chatbot\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Test2.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Norbertas\\source\\repos\\Test2\\Test2\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\Norbertas\\source\\repos\\Chatbot\\wwwroot\\app.css",
       "SourceId": "Test2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Norbertas\\source\\repos\\Test2\\Test2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Norbertas\\source\\repos\\Chatbot\\wwwroot\\",
       "BasePath": "_content/Test2",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\Norbertas\\source\\repos\\Test2\\Test2\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Norbertas\\source\\repos\\Chatbot\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "Test2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Norbertas\\source\\repos\\Test2\\Test2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Norbertas\\source\\repos\\Chatbot\\wwwroot\\",
       "BasePath": "_content/Test2",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Norbertas\\source\\repos\\Test2\\Test2\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Norbertas\\source\\repos\\Chatbot\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Test2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Norbertas\\source\\repos\\Test2\\Test2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Norbertas\\source\\repos\\Chatbot\\wwwroot\\",
       "BasePath": "_content/Test2",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Norbertas\\source\\repos\\Test2\\Test2\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\Norbertas\\source\\repos\\Chatbot\\wwwroot\\favicon.png",
       "SourceId": "Test2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Norbertas\\source\\repos\\Test2\\Test2\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Norbertas\\source\\repos\\Chatbot\\wwwroot\\",
       "BasePath": "_content/Test2",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
